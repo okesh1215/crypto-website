@@ -1,0 +1,61 @@
+.posts{
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background: #ffffff9e;
+    border-radius: 10px;
+    color: #212121;
+}
+
+.descr{
+    height: 6rem;
+    overflow: hidden;
+}
+
+.pAuthor{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: rgb(55 54 54 / 76%);
+}
+
+.datep{
+    font-size: 14px;
+    color: #272626bf;
+}
+
+.LinkRM{
+    color: #00000096;
+}
+/* Container for the "no posts" message */
+.no-posts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Message when there are no posts */
+.no-posts-container h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.no-posts-container .create-post-button {
+    padding: 10px 20px;
+    background-color: #1e451f !important; /* Use !important as a last resort */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-post-button:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,53 @@
+.postsPage {
+    background: #f7f7f7c4;
+    color: #212121;
+    padding: 2rem;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 1rem;
+    color: #2d2d2d;
+    margin-bottom: 1rem;
+    border-bottom: inset;
+  }
+  
+  .forumI {
+    font-size: 50px !important;
+  }
+  
+  .searchBar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .searchInput {
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .searchButton, .resetButton {
+    background-color: #050505;
+    color: white;
+    border: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover, .resetButton:hover {
+    background-color: #4a5a6c;
+  }
+  
+  /* Adding margin between search and reset buttons */
+  .resetButton {
+    margin-left: 10px;
+  }
+  

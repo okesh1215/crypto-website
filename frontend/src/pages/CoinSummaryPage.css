@@ -1,0 +1,45 @@
+
+.coinsummary {
+    background-color: #f7f7f7d4!important;
+    margin: auto;
+    margin-top: 2rem;
+    width: 85%;
+    text-align: center;
+  }
+  
+  .coinsummary h1 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .error-message {
+    text-align: center;
+    color: #ff6b6b;
+    font-size: 1.2em;
+  }
+  
+  .coin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .coin-table th,
+  .coin-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #444;
+  }
+  
+  .coin-table th {
+    background-color: #2a2a3c;
+    color: #00d4ff;
+  }
+  
+  .coin-table tr:nth-child(even) {
+    background-color: #333;
+  }
+  
+  .coin-table tr:hover {
+    background-color: #444;
+  }
+  

@@ -1,0 +1,33 @@
+.aboutComm{
+    font-size: 14px;
+    text-align-last: justify;
+    color: #686868;
+}
+.nameComm{
+    display: inline-block;
+}
+.Comm{
+    margin: 1rem 0;
+    border-bottom: inset;
+    padding: 10px;
+}
+.actionIcons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto; /* Aligns icons to the right */
+}
+
+.editIcon, .deleteIcon {
+    cursor: pointer;
+    color: #555; /* Default icon color */
+    transition: color 0.3s;
+}
+
+.editIcon:hover {
+    color: #4caf50; /* Green for edit */
+}
+
+.deleteIcon:hover {
+    color: #f44336; /* Red for delete */
+}

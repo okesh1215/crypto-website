@@ -1,0 +1,146 @@
+/* Wallet Container */
+.wallet-container {
+  padding: 20px;
+  background-color: #131627;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 20px auto;
+  color: #f0f0f0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.wallet-header {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #00d4ff;
+}
+
+/* Wallet Details */
+.wallet-details p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Wallet Actions */
+.wallet-actions {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.wallet-input {
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #2a2a3c;
+  color: #fff;
+  font-size: 1em;
+}
+
+.wallet-input::placeholder {
+  color: #999;
+}
+
+.wallet-button {
+  padding: 12px 24px;
+  font-size: 1em;
+  background: linear-gradient(135deg, #00d4ff, #007bff);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.wallet-button:hover {
+  background: linear-gradient(135deg, #007bff, #00d4ff);
+}
+
+.wallet-button-add {
+  margin-right: 10px; /* Adds space to the right of the Add button */
+}
+
+.wallet-button-history {
+  background: linear-gradient(135deg, #00c851, #007e33);
+}
+
+.wallet-button-history:hover {
+  background: linear-gradient(135deg, #007e33, #00c851);
+}
+
+/* Error and Loading Messages */
+.wallet-error-message,
+.wallet-error {
+  color: #ff6b6b;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* Transaction History */
+.transaction-history {
+  margin-top: 20px;
+  background-color: #2a2a3c;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.transaction-history h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #00d4ff;
+}
+
+.transaction-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-history li {
+  background-color: #333;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  transition: transform 0.3s, background 0.3s;
+  color: #fff;
+}
+
+.transaction-history li:hover {
+  transform: scale(1.02);
+  background-color: #444;
+}
+
+.transaction-history p {
+  margin: 5px 0;
+}
+
+.transaction-history em {
+  color: #bbb;
+  font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .wallet-container {
+    max-width: 95%;
+    margin: 20px auto;
+  }
+
+  .wallet-button,
+  .wallet-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .wallet-input {
+    margin-right: 0;
+  }
+
+  .wallet-button-add {
+    margin-right: 0; /* Remove margin in responsive mode */
+  }
+}
